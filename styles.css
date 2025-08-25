@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0 32px;
+}
+.purple {
+    color: #6415ff;
+}
+
+/* NAV */
+
+.nav__row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.nav__links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
