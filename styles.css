@@ -1,38 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
 * {
-    box-sizing: border-box;
+    padding: 0;
     margin: 0;
-    padding: 0 32px;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    color: #243e63;
 }
+
+div {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    display: flex;
+}
+
+li {
+    list-style-type: none;
+}
+
 .purple {
     color: #6415ff;
 }
 
 /* NAV */
 
-.nav__row {
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
+.nav {
+    padding-top: 32px;
     display: flex;
-    align-items: center;
+}
+
+.nav__row {
+    display: flex;
     justify-content: space-between;
 }
 
-.nav {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .nav__logo {
     display: flex;
-    justify-content: flex-start;
     align-items: center;
+    margin: 8px 0;
+    padding-bottom: 4px,
+}
+
+
+.nav__logo--img {
+    width: 40px;
+    height: 40px;
+}
+
+.nav__logo--title {
+    color: #243E63;
+    font-size: 24px;
+    font-weight: 900;
+    margin-left: 12px;
+    padding-bottom: 2px;
+    letter-spacing: 0.6px;
 }
 
 .nav__links {
     display: flex;
-    justify-content: center;
     align-items: center;
-    list-style: none;
+    padding-bottom: 2px;
+}
+
+.nav__link {
+    font-size: 14px;
+    font-weight: 600;
+    padding-top: 4px;
+    letter-spacing: 0.35px;
+    position: relative;
+    margin: 0 24px;
+}
+
+
+.nav__link--primary {
+    margin: 0;
+    padding: 10px 32px;
+    margin-top: 2px;
+    border-radius: 9999px;
+    color: #fff;
+    background-color: #6415ff;
+    line-height: 1.5;
+    border: auto;
+}
+
+.btn__menu {
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+.img__header--img {
+    max-width: 100%;
+    width: calc(100%/3);
 }
