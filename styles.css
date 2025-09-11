@@ -433,6 +433,8 @@ p {
 
 .value__list {
     display: flex;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 .values__container {
@@ -440,4 +442,21 @@ p {
     align-items: center;
     justify-content: center;
     margin-top: 32px;
+}
+
+/* PRICING */
+
+.pricing__header {
+    text-align: center;
+}
+
+.plan {
+    width: calc(100%/3);
+}
+
+.plan__list {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
