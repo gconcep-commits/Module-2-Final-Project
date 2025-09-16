@@ -279,7 +279,7 @@ p {
 
 .section__para {
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #7c8ba1;
     line-height: 1.625;
 }
@@ -460,7 +460,7 @@ p {
     max-width: 576px;
     text-align: center;
     font-size: 18px;
-    font-weight: 500px;
+    font-weight: 500;
     color: #7c8ba1;
     line-height: 1.625;
     margin: 0 auto;
@@ -482,7 +482,7 @@ p {
     max-width: 24rem;
     border-radius: 0.5rem;
     color: rgb(26, 32, 44);
-    background-color: 2gb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
     padding-left: 2rem;
     padding-right: 2rem;
 }
@@ -549,74 +549,6 @@ p {
     font-size: 16px;
     line-height: 1.5;
 }
-
-.plan__stripe {
-    color: #f7fafc;
-    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    color: #243e63;
-}
-
-div {
-    display: block;
-}
-
-a {
-    text-decoration: none;
-}
-
-ul {
-    display: flex;
-}
-
-li {
-    list-style-type: none;
-}
-
-.purple {
-    color: #6415ff;
-}
-
-.row {
-    width: 100%;
-    max-width: 1280px;
-    margin: 0 auto;
-}
-
-.container {
-    padding: 96px 0;
-}
-
-.img {
-    width: 100%;
-}
-
-.tag {
-    font-size: 16px;
-    color: #6415ff;
-    letter-spacing: 1.6px;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-
-.btn {
-    right: 4px;
-    z-index: 2;
-    padding: 16px 32px;
-    border-radius: 500px;
-    font-size: 14px;
-    font-weight: 700;
-    background-color: #6415ff;
-    color: #fff;
-    border: none;
-    cursor: pointer;
-}
-
 
 /* NAV */
 
@@ -1008,8 +940,8 @@ p {
     max-width: 576px;
     text-align: center;
     font-size: 18px;
-    font-weight: 500px;
-    color: 7c8ba1;
+    font-weight: 500;
+    color: #7c8ba1;
     line-height: 1.625;
     margin: 0 auto;
 }
@@ -1114,16 +1046,47 @@ p {
     justify-content: center;
     align-items: center;
 }
-    left: 0px;
-    right: 0px;
-    top: 0px;
-    height: 0.5rem;
 
+/* TESTIMONIALS */
+
+.testimonial__container {
+    display: flex;
 }
 
-.plan__list {
+.testimonial__img {
+    width: 50%;
+}
+
+.testimonial__row {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+.testimonial__experience {
+    display: flex;
+}
+
+.testimonial__headshot {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+
+.testimonial__info {
+    margin-left: 24px;
+}
+
+.testimonial__name {
+    color: #4a5568;
+    font-size: 1.25rem;
+    line-height: 1.25rem;
+    font-weight: 700;
+}
+
+.testimonial__occupation {
+    color: #7c8ba1;
+    font-weight: 500;
+    line-height: 1.5;
 }
