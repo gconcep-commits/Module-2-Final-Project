@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Treact Website</title>
     <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
     <script src="script.js"></script>
   </head>
   <body>
@@ -332,15 +333,17 @@
         <p class="section__para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Natus veritatis repellendus esse nostrum ducimus beatae quaerat placeat nihil neque, cum mollitia suscipit laborum impedit nemo unde laboriosam eum voluptates vel ipsum aliquam quod quibusdam? Ducimus, aperiam.
         </p>
         <div class="testimonial">
-                <div class="testimonial__rating">
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                  <i class="fas fa-star"></i>
-                </div>
-        </div>
+            <div class="testimonial__rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+            </div>
         <div class="testimonial__experience">
+          <h3 class="testimonial__experience--title">"Amazing User Experience!"</h3>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi, doloremque!</p>
+          </div>
           <div class="testimonial__review"></div>
           <figure class="testimonial__headshot--wrapper">
             <img src="./assets/photo-1494790108377-be9c29b29330.avif" class="testimonial__headshot"alt="">
@@ -358,7 +361,17 @@
 <section id="start">
   <div class="container">
     <div class="row">
-      <h1>Developers all over the world are happily using Treact</h1>
+      <div class="start__container">
+        <div class="start__row">
+          <h1 class="start__title">
+            Developers all over the world are happily using Treact</h1>
+          <div class="start__buttons">
+            <button class="start__button btn">Get Started</button>
+            <button class="start__button btn">Contact Us</button>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </section>
@@ -366,8 +379,60 @@
     </main>
 
     <footer>
-      <div class="container">
-        <div class="row">
+      <div class="row footer__row">
+        <div class="footer__columns">
+          <div class="footer__column">
+            <div class="footer__column--title">MAIN</div>
+            <a class="footer__column--link">Blog</a>
+            <a class="footer__column--link">FAQs</a>
+            <a class="footer__column--link">Support</a>
+            <a class="footer__column--link">About Us</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">PRODUCT</div>
+            <a class="footer__column--link">Log In</a>
+            <a class="footer__column--link">Personal</a>
+            <a class="footer__column--link">Business</a>
+            <a class="footer__column--link">Team</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">PRESS</div>
+            <a class="footer__column--link">Logos</a>
+            <a class="footer__column--link">Events</a>
+            <a class="footer__column--link">Stories</a>
+            <a class="footer__column--link">Office</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">TEAM</div>
+            <a class="footer__column--link">Career</a>
+            <a class="footer__column--link">Founders</a>
+            <a class="footer__column--link">Culture</a>
+            <a class="footer__column--link">Onboarding</a>
+          </div>
+          <div class="footer__column">
+            <div class="footer__column--title">LEGAL</div>
+            <a class="footer__column--link">GDPR</a>
+            <a class="footer__column--link">Privacy Policy</a>
+            <a class="footer__column--link">Terms of Service</a>
+            <a class="footer__column--link">Disclaimer</a>
+          </div>
+        </div>
+        <div class="footer__divider"></div>
+        <div class="footer__bottom">
+          <div class="footer__logo">
+            <figure class="footer__img--wrapper">
+            <img src="./assets/logo-light.d9a5d1b5be5ea077b26864fdfc2e96a4.svg" class="footer__img" alt="">
+          </figure>
+          <div class="logo--text">Treact Inc.</div>
+          </div>
+          <div class="footer__copyright">
+            &copy; 2024 Treact Inc. All rights reserved.
+          </div>
+          <div class="footer__socials">
+            <i class="fab fa-facebook-f"></i>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-youtube"></i>
+          </div>
         </div>
       </div>
     </footer>
