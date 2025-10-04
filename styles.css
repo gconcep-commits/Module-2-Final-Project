@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
 
 /* ========== Base ========== */
 
@@ -6,28 +6,28 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   color: #243e63;
 }
 
-div { 
-    display: block; 
+div {
+  display: block;
 }
 
-a { 
-    text-decoration: none; 
+a {
+  text-decoration: none;
 }
 
-ul { 
-    display: flex; 
+ul {
+  display: flex;
 }
 
-li { 
-    list-style-type: none; 
+li {
+  list-style-type: none;
 }
 
-.purple { 
-    color: #6415ff; 
+.purple {
+  color: #6415ff;
 }
 
 .row,
@@ -37,12 +37,12 @@ li {
   margin: 0 auto;
 }
 
-.container { 
-    padding: 96px 0; 
+.container {
+  padding: 96px 0;
 }
 
-.img { 
-    width: 100%; 
+.img {
+  width: 100%;
 }
 
 .tag,
@@ -92,7 +92,7 @@ nav {
 }
 
 .nav__logo--title {
-  color: #243E63;
+  color: #243e63;
   font-size: 24px;
   font-weight: 900;
   margin-left: 12px;
@@ -134,7 +134,9 @@ nav {
 
 /* ========== HEADER ========== */
 
-header { position: relative; }
+header {
+  position: relative;
+}
 
 header .row {
   display: flex;
@@ -161,7 +163,9 @@ h1 {
   line-height: 1.25;
 }
 
-.header__description--para { margin: 32px 0; }
+.header__description--para {
+  margin: 32px 0;
+}
 
 p {
   font-size: 18px;
@@ -207,7 +211,11 @@ p {
   cursor: pointer;
 }
 
-.header__customers { margin-top: 16px; padding-right: 128px; opacity: 0.5; }
+.header__customers {
+  margin-top: 16px;
+  padding-right: 128px;
+  opacity: 0.5;
+}
 
 .header__customers--title {
   margin-top: 80px;
@@ -216,7 +224,16 @@ p {
   font-weight: 700;
 }
 
-.img__header--img { width: 100%; max-width: 768px; display: block; }
+.img__header--img {
+  width: 100%;
+  max-width: 768px;
+  display: block;
+}
+
+.header__customers {
+  margin-top: 16px;
+  opacity: 0.5;
+}
 
 /* ========== FEATURES ========== */
 
@@ -226,7 +243,9 @@ p {
   align-items: center;
 }
 
-#features .section__title { text-align: center; }
+#features .section__title {
+  text-align: center;
+}
 
 .section__title {
   font-size: 48px;
@@ -263,7 +282,7 @@ p {
 .feature__img--wrapper {
   display: flex;
   padding: 20px;
-  border: 1px solid #e5e7eb; 
+  border: 1px solid #e5e7eb;
   border-radius: 500px;
 }
 
@@ -286,7 +305,7 @@ p {
   flex-wrap: wrap;
   justify-content: center;
   margin-top: 40px;
-  width: 60%; 
+  width: 60%;
   max-width: 634px;
 }
 
@@ -303,11 +322,17 @@ p {
   align-items: center;
 }
 
-#quality .section__title { line-height: 1.25; }
+#quality .section__title {
+  line-height: 1.25;
+}
 
-#quality .btn { margin-top: 32px; }
+#quality .btn {
+  margin-top: 32px;
+}
 
-.quality__img--wrapper { width: 50%; }
+.quality__img--wrapper {
+  width: 50%;
+}
 
 /* ========== STEPS ========== */
 
@@ -374,7 +399,7 @@ p {
 }
 
 .value__list {
-  display: grid;                
+  display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 24px 32px;
   margin-top: 24px;
@@ -396,7 +421,9 @@ p {
 
 /* ========== PRICING ========== */
 
-.pricing__header { text-align: center; }
+.pricing__header {
+  text-align: center;
+}
 
 .section__para {
   max-width: 576px;
@@ -427,7 +454,7 @@ p {
   background-color: rgb(255, 255, 255);
   padding-left: 2rem;
   padding-right: 2rem;
-  position: relative;          
+  position: relative;
   overflow: hidden;
 }
 
@@ -447,8 +474,8 @@ p {
   line-height: 1.625;
 }
 
-.plan__name { 
-    font-size: 20px; 
+.plan__name {
+  font-size: 20px;
 }
 
 .plan__price {
@@ -503,7 +530,11 @@ p {
   right: 0;
   top: 0;
   height: 0.5rem;
-  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
 }
 
 .plan__list {
@@ -515,9 +546,13 @@ p {
 
 /* ========== TESTIMONIALS ========== */
 
-.testimonial__container { display: flex; }
+.testimonial__container {
+  display: flex;
+}
 
-.testimonial__img { width: 50%; }
+.testimonial__img {
+  width: 50%;
+}
 
 .testimonial__row {
   display: flex;
@@ -526,7 +561,9 @@ p {
   align-items: center;
 }
 
-.testimonial__experience { display: flex; }
+.testimonial__experience {
+  display: flex;
+}
 
 .testimonial__headshot {
   width: 80px;
@@ -534,14 +571,14 @@ p {
   border-radius: 50%;
 }
 
-.testimonial__info { 
-    margin-left: 24px; 
+.testimonial__info {
+  margin-left: 24px;
 }
 
 .testimonial__rating {
-    color: rgba(246, 173, 85);
-    margin-right: 2px;
-    margin-top: 4px;
+  color: rgba(246, 173, 85);
+  margin-right: 2px;
+  margin-top: 4px;
 }
 
 .testimonial__name {
@@ -560,36 +597,36 @@ p {
 /* START */
 
 .start__container {
-    padding: 96px 0;
-    width: 100%;
-    background-color: rgb(100, 21, 255);
-    border-radius: 8px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  padding: 96px 0;
+  width: 100%;
+  background-color: rgb(100, 21, 255);
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .start__row {
-    width: 100%;
-    margin: 0 auto;
-    max-width: 1024px;
-    padding: 0 32px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  max-width: 1024px;
+  padding: 0 32px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .start__title {
-    color: #f7fafc;
-    font-size: 30px;
-    font-weight: 700;
-    line-height: 1.5;
-    z-index: 2;
+  color: #f7fafc;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.5;
+  z-index: 2;
 }
 
 .start__buttons {
-    display: flex;
-    justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 /* ========== FOOTER ========== */
@@ -631,10 +668,10 @@ footer {
 }
 
 .footer__divider {
-    width: 1005;
-    height: 2px;
-    margin: 64px 0;
-    background: rgb(116, 44, 255);
+  width: 1005;
+  height: 2px;
+  margin: 64px 0;
+  background: rgb(116, 44, 255);
 }
 
 .footer__bottom {
@@ -672,7 +709,9 @@ footer {
   gap: 16px;
 }
 
-.fab fa-facebook-f, .fab fa-twitter, .fab fa-youtube {
+.fab fa-facebook-f,
+.fab fa-twitter,
+.fab fa-youtube {
   color: #f7fafc;
   font-size: 20px;
   cursor: pointer;
