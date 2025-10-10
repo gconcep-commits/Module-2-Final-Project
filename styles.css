@@ -574,15 +574,12 @@ p {
 
 .plan__stripe {
   position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
+  left: 0px;
+  right: 0px;
+  top: 0px;
   height: 0.5rem;
-  background: linear-gradient(
-    115deg,
-    rgb(56, 178, 172) 0%,
-    rgb(129, 230, 217) 100%
-  );
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 
 .plan__list {
@@ -595,15 +592,37 @@ p {
 .plan__btn {
   width: 100%;
   padding: 0.75rem 2rem;
-  border-radius: 0.25rem;
-  font-size: 14px;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  border-radius: 9999px;
+  font-size: 0.875rem;
   font-weight: 700;
+  letter-spacing: 0.053em;
   background-color: #6415ff;
   color: #fff;
   border: none;
   cursor: pointer;
+  text-transform: uppercase;
+  transition: all 300ms ease;
 }
 
+.plan:nth-child(1) .plan__stripe, .plan:nth-child(1) .plan__btn {
+  background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.plan:nth-child(2) {
+  color: #f7fafc;
+  background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(130, 88, 255) 100%);
+}
+
+.plan__btn:nth-child(2) {
+  color: #6415ff;
+  background-color: #f7fafc;
+}
+
+.plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__btn {
+  background: linear-gradient(115deg, rgb(245, 101, 101) 0%, rgb(254, 178, 178) 100%);
+}
 /* ========== TESTIMONIALS ========== */
 
 .testimonial__img--wrapper {
