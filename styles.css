@@ -157,8 +157,6 @@ header .row {
 }
 
 .header__description {
-  display: flex;
-  flex-direction: column;
   width: 40%;
 }
 
@@ -170,6 +168,8 @@ h1 {
 
 .header__description--para {
   margin: 32px 0;
+  max-width: 576px;
+  width: 60%;
 }
 
 p {
@@ -240,6 +240,7 @@ p {
 
 .header__customers {
   margin-top: 16px;
+  padding-right: 128px;
   opacity: 0.5;
 }
 
@@ -610,14 +611,12 @@ p {
   background: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
 }
 
-.plan:nth-child(2) {
-  color: #f7fafc;
-  background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(130, 88, 255) 100%);
+.plan__list .plan:nth-child(2) * {
+  color: #f7fafc !important;
 }
 
-.plan__btn:nth-child(2) {
-  color: #6415ff;
-  background-color: #f7fafc;
+.plan:nth-child(2) {
+  background: linear-gradient(115deg, rgb(100, 21, 255) 0%, rgb(130, 88, 255) 100%);
 }
 
 .plan:nth-child(3) .plan__stripe, .plan:nth-child(3) .plan__btn {
